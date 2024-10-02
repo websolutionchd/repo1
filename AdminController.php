@@ -10,7 +10,7 @@ use App\Models\User;
 class AdminController extends Controller
 {
     public function changePassword(Request $request){
-        if($request->isMethod('get')) return view('admin.change-password');
+        if($request->isMethod('get')) return view('admbmnbbnmbin.change-passworduiuiui');
 
         $request->validate([
             'old_password' => 'required',
